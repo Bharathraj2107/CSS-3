@@ -1,0 +1,37 @@
+/*p2.html*/
+/* section{
+    background-color: teal;
+    margin: 20px;
+    padding:20px;
+}
+.Transition{
+    transition: 200ms;
+    transition: 2s;
+    transition: color 2s;
+}
+.Transition:hover{
+    background-color: slategrey;
+    color:white;
+} */
+ /*p3.html*/
+ div{
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color:crimson;
+    color: #fff;
+    transition: width 2000ms;
+}
+div:hover{
+    width: 100px;
+    background-color: gold;
+}
+#d1{
+    transition-timing-function: linear;    
+} /* cubic-bezier(0,0,1,1) */
+#d2{transition-timing-function: ease-in;} /* cubic-bezier(0.42,0,1,1) */
+#d3{transition-timing-function:  ease-out; } /* cubic-bezier(0,0,0.58,1) */
+#d4{transition-timing-function:  ease; } /* cubic-bezier(0.25,0.1,0.25,1) */
+#d5{transition-timing-function:  ease-in-out; } /* cubic-bezier(0.42,0,0.58,1) */
+#d6{transition-timing-function:  steps(6,jump-start); /* jump-start,jump-end,start,end,jump-both,jump-none */}
+#d7{transition-timing-function:  cubic-bezier(0.5,0.7,0.8,0.1);}
