@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        section{
+            background-color: brown;
+            color:white;
+            text-align: center;
+            border-radius:10px;
+            font-size:40px;
+            padding:20px;
+            margin:30px;
+            box-shadow: 3px 3px 3px black;
+            animation:sachin 10s ease-in-out infinite;/*here  we are calling the function with some parameters*/
+        }
+        @keyframes sachin{/*it is like a function declaration*/
+            from{
+                background-color: brown;
+                transform:scale(0.0);
+            }
+            to{
+                background-color: blueviolet;
+                transform:scale(1.1);
+            }
+
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <h1>WELCOME TO ANIMATION..!</h1>
+</section>
+</body>
+</html>

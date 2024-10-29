@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           section{
+            color:white;
+            text-align: center;
+            border-radius:10px;
+            font-size:40px;
+            padding:250px;
+            margin:30px;
+            box-shadow: 3px 3px 3px black;
+            animation:sachin 10s infinite;
+            background-image: url(./images/night.jpg);/*here  we are calling the function with some parameters*/
+        }
+        @keyframes sachin{/*it is like a function declaration*/
+            from{
+                background-position:left;
+                background-image: url(./images/night.jpg);
+                background-repeat: no-repeat;
+                width:fit-content;
+            }
+            to{
+                background-position:right;
+                background-image: url(./images/morning.jpg);
+                background-repeat: no-repeat;
+                width:fit-content;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>WELCOME TO ANIMATION..!</h1>
+    </section>
+</body>
+</html>
