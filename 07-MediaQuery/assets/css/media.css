@@ -1,0 +1,32 @@
+/* MOBILE*/
+/* @media(max-width:768px){
+    header{
+        background-color: skyblue;
+        padding:20px;
+    }
+    header>nav{
+        text-align:center;
+    }
+    header>nav>ul{
+        float:none;/*default come to left*/
+    }
+    /* header>nav>ul>li{
+        display:block; */
+    }
+} 
+/*TABLET*/
+/* @media (min-width:769px) and (max-width:1024px) {
+    header{
+        background-color: teal;
+        padding:20px;
+    }
+    header>nav{
+        text-align:center;
+    }
+    header>nav>ul{
+        float:none;
+    }
+} */
+/*p3 create responsive banner single color*/
+
+/*p4 create responsive banner with image */
