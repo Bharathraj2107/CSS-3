@@ -3,35 +3,153 @@
     padding:0%;
     margin:0%;
 }
-img{
-    width:150px;
-    height:70px;
-}
+
+/* P2.HTML CODE */
 header{
-    background-color: grey;;
+    background-color: gray;
 }
 header>nav>ul{
-    list-style: none;
+    list-style:none;
     float:right;
 }
 header>nav>ul>li{
-    display:inline-block;
-    padding:20px;
+    display: inline-block;
+    padding: 20px;
 }
 header>nav>ul>li:hover{
-    background-color:#fff;
+    background-color: #fff;
 }
-header>nav>ul>li:hover a {
-    color:grey;
+ header>nav>ul>li:hover a{
+    color:gray;
 }
 header>nav>ul>li>a{
     text-decoration: none;
-    color:white;
+    color: white;
 }
 header>nav>img{
-    height:54px;
+    height: 54px;
 }
-/*p2.html*/
+/* P3.HTML CODE */
+.commonBanner{
+    height:400px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: teal;
+   
+}
+.commonBanner>div{
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 30px;
+    box-shadow: -2px -2px 9px #ccc, 2px 2px 9px #ccc;/*left,top,right,bottom and blur radius*/
+    border-radius: 10px;
+    transition:all 2s;
+   
+}
+.commonBanner>div:hover{
+    background-color: teal;
+    transform: rotate(360deg);
+}
+
+/* P4.HTML CODE */
+.banner2{
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+/* P5.HTML CODE */
+.banner3{
+    background: linear-gradient(orange, white, green);
+    background: linear-gradient(45deg, orange, white, green);
+    background: linear-gradient(to right, orange, white, green);
+}
+/* P6.HTML CODE  */
+.banner4{
+    background: repeating-linear-gradient(45deg, orange, white 20%, green 50%);
+}
+/* P7.HTML CODE  */
+.banner5{
+    background: url(../images/desktop.jpg) no-repeat left, url(../images/tab.jpg) no-repeat right;
+    background-size: 50%;
+}
+/* P8.HTML CODE */
+.banner6{
+    background: linear-gradient( rgba(255, 165, 0, 0.5), rgba(255, 255, 255,0.5), rgba(0, 128, 0,0.5)), url(../images/desktop.jpg) no-repeat center;
+    background-size: 100%;
+}
+/* P9.HTML CODE */
+
+  /* Video Background */
+
+.banner-content{
+    height:10px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: teal;
+   
+}
+.banner-content{
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    padding: 20px;
+    box-shadow: -2px -2px 9px #ccc, 2px 2px 9px #ccc;/*left,top,right,bottom and blur radius*/
+    border-radius: 10px;
+    transition:all 2s;
+   
+}
+.banner-content:hover{
+    background-color: teal;
+    transform: rotate(360deg);
+}
+/* .banner7 {
+    height: 100vh;
+}
+.banner-content{
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: -2px -2px 9px #ccc, 2px 2px 9px #ccc;/*left,top,right,bottom and blur radius*/
+    /* border-radius: 10px; */
+    /* transition:all 2s; */
+   
+/* } */
+/* .banner-content:hover{
+    background-color: teal;
+    transform: rotate(360deg);
+} */
+
+/* #backgroundVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh; */
+    /* object-fit: cover; Ensures video covers entire area */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: -1; Places video behind the content */
+/* } */
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 30vh; /* Adjust to center content vertically */
+} */
+
+
+/* P10.HTML CODE */
+.banner8{
+    background: -o-linear-gradient(black, white, green);
+    background: -moz-linear-gradient(red, white, green);
+    background: -webkit-linear-gradient(blue, white, green);
+    background: linear-gradient(orange, white, green);/*default for all the browser*/
+}
 /* nav{
     background-color: grey;
     display:flex;
@@ -53,4 +171,46 @@ ul>li>a{
     text-decoration: none;
     color:white;
 }  */
+/*p4.html*/
+/* body{
+/*   
+}
+ *{
+    margin:0%;
+    padding:0%;
+ }
+section{
+    background-color: teal;
+    height:200px;
+    width:100%;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+ /* position:relative;  */
 
+/* section>div{
+    text-align: center;
+    background-color: black;
+    color:white;
+    width:300px;
+    border-radius: 10px;
+    padding:70px;
+    box-shadow: 3px 3px 3px 4px white;
+    opacity:0.5; */
+/* position:absolute;
+top:10px;
+left:550px; */
+/* margin: 10px 500px;
+}
+section>div:hover{
+    transition:all 2s;
+    transform: rotate(360deg); */
+    /* transform: rotateX(360deg); */
+}
+/*p10.html*/
+/* .banner8{
+    background:-o-linear-gradient(black,white,green);
+    background:-moz-linear-gradient(red,white,green);
+    background:-webkit-linear-gradient(blue,white,green);
+    background:linear-gradient(orange,white,green)
+}  */

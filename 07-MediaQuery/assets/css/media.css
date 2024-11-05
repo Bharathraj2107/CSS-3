@@ -10,10 +10,12 @@
     header>nav>ul{
         float:none;/*default come to left*/
     }
-    /* header>nav>ul>li{
-        display:block; */
-    }
-} 
+     /* header>nav>ul>li{
+        display:block;
+    }  */
+/* } */
+
+
 /*TABLET*/
 /* @media (min-width:769px) and (max-width:1024px) {
     header{
