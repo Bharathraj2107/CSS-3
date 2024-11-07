@@ -1,5 +1,5 @@
 /* MOBILE*/
-/* @media(max-width:768px){
+ @media(max-width:768px){
     header{
         background-color: skyblue;
         padding:20px;
@@ -10,14 +10,38 @@
     header>nav>ul{
         float:none;/*default come to left*/
     }
-     /* header>nav>ul>li{
+     header>nav>ul>li{
         display:block;
-    }  */
-/* } */
+    } 
+    header>nav{
+        text-align: center;
+    }
+    .commonBanner{
+        overflow: hidden;
+    }
+    .banner1{
+        background-color:purple;
+    }
+    .banner2{
+        background-image: url(../images/mobile.jpg);/*below colors are not applying*/
+    }
+    .banner3{
+        background-color:burlywood;
+    }
+    .banner4{
+        background-color: rgb(60, 128, 0);
+    }
+    .banner5{
+        background-color:coral;
+    }
+    .banner6{
+        background-color:darkkhaki;
+    }
+} 
 
 
 /*TABLET*/
-/* @media (min-width:769px) and (max-width:1024px) {
+ @media (min-width:769px) and (max-width:1024px) {
     header{
         background-color: teal;
         padding:20px;
@@ -28,7 +52,23 @@
     header>nav>ul{
         float:none;
     }
-} */
-/*p3 create responsive banner single color*/
+    .banner1{
+        background-color:cyan;
+    }
+    .banner2{
+        background-image: url(../images/tab.jpg);
+    }
+    .banner3{
+        background-color: yellow;
+    }
+    .banner4{
+        background-color: green;
+    }
+    .banner5{
+        background-color:pink;
+    }
+    .banner6{
+        background-color: blue;
+    }
+} 
 
-/*p4 create responsive banner with image */
