@@ -1,0 +1,124 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+#entire_background{
+    background-color:grey;
+    padding:100px
+}
+header{
+    background-color:orange;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+   
+}
+   
+a{
+    text-decoration:none;
+    color:white;
+    padding:20px;
+}
+a[href="products"]{
+    background-color: black;
+    color:orange
+}
+header>div>h1>span{
+    color:white;
+}
+#banner{
+    background-color:#191717;
+    text-align:right;
+    padding:30px;
+    
+}
+#banner>h1{
+    color:white;
+    font-size: 60px;
+    padding-right:100px;
+    padding:20px;
+}
+#banner>h1>span{
+    color:orange;
+    font-size: 40px;
+    padding-right:30px;
+}
+#banner>p{
+    color:orange;
+    padding-right:22px;
+}
+#sect2{
+    display:flex;
+    padding:60px;
+    background-color:orange;
+}
+#b1{
+    text-align:left;
+    padding-right:70px;
+    
+}
+#b2{
+    text-align:center;
+    padding-left:380px;
+    padding-right:605px;
+}
+#b3{
+   
+    text-align:right;
+    /* padding-left:780px; */
+    
+}
+#sect2>div>h2{
+    text-indent:20px;
+}
+#sect2>div>p>span{
+    color:white;
+}
+#more{
+    background-color: white;
+    padding:5px;
+}
+#btn{
+    color:orange;
+    padding:5px;
+    width:60px;
+    background-color: white;
+}
+#middle>h1{
+    color:orange;
+    padding:10px;
+    font-size:60px;
+    background-color: white;
+}
+#middle>h1>span{
+    color:Black;
+}
+#sect3{
+    background-color: white;
+    display:flex;
+    padding:80px;
+}
+#sect3>div>h2,span{
+    color:orange
+}
+#sect3 button{
+    color:white;
+    background-color: orange;
+}
+#b31{
+    text-align:left;
+    padding-right:50px;
+    
+}
+#b32{
+    text-align:center;
+    padding-left:380px;
+    padding-right:580px;
+}
+#b33{
+   
+    text-align:right;
+    /* padding-left:780px; */
